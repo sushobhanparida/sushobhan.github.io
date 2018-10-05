@@ -1,7 +1,8 @@
-body{
+*{
 
-    background-color: #EEEEE;....0
-   font-family: Open Sans;
+    background-color: #EEEEE;
+   font-family: Montserrat;
+ 
 }
 
 fieldset
@@ -30,22 +31,15 @@ section img
 }
 
 
-.col
-{
 
-    margin: px;
-}
 
 .card
 {
     margin: 10px 10px 0px 10px;
-    
+    border-radius: 20px;
+    height: 150px;
 }
 
-.progress
-{
-    margin-bottom: 0px;
-}
 
 #logo
 {
