@@ -1,0 +1,53 @@
+body{
+
+    background-color: #EEEEE;....0
+   font-family: Open Sans;
+}
+
+fieldset
+{
+    height: 100px;
+    width: 340px;
+    margin: 20px auto;
+    border: 2px solid #4DA9F7;
+    border-radius: 10px;
+}
+
+
+header
+{
+    padding: 10px;
+    text-align: center;
+}
+
+section
+{
+    text-align: center;
+}
+section img
+{
+    margin: 50px;
+}
+
+
+.col
+{
+
+    margin: px;
+}
+
+.card
+{
+    margin: 10px 10px 0px 10px;
+    
+}
+
+.progress
+{
+    margin-bottom: 0px;
+}
+
+#logo
+{
+    padding: 0 30px;
+}
