@@ -41,9 +41,9 @@ section img
 
 .card
 {
-    margin: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 20px;
     border-radius: 20px;
-    height: 145px;
+    height: 140px;
 }
 
 
@@ -58,7 +58,7 @@ section img
 {
     margin: 15px 10px 20px 20px;
     top: 19%;
-    width: 55px;
+    width: 50px;
    
 }
 
