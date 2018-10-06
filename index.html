@@ -24,7 +24,7 @@
           <li><a href="">Projects</a></li>
           <li><a href="">Work Experience</a></li>
           <li><a href="">Education</a></li>
-          <li><a href="" class="btn white indigo-text">Contact me</a></li>
+
         </ul>
      
     </nav>
@@ -43,7 +43,6 @@
     <li><a href=""><i class="material-icons left">computer</i>Projects</a></li>
     <li><a href=""><i class="material-icons left">work</i>Work Experience</a></li>
     <li><a href=""><i class="material-icons left">school</i>Education</a></li>
-    <li><a href=""><i class="material-icons left">feedback</i>Contact me</a></li>
   </ul>
     
     
@@ -102,6 +101,20 @@
       </div>
     </div>
   </div>
+    
+    <div class="fixed-action-btn toolbar">
+  <a class="btn-floating btn-large blue darken-4">
+    <i class="large material-icons">chat</i>
+  </a>
+  <ul>
+    <li><a class="navicon" href="https://api.whatsapp.com/send?phone=+918908528110&text=Hi, I've contacted you through your website." target="_blank"><img src="../sushobhanparida.github.io/images/whatsapp.png"></a></li>
+        
+    <li><a class="navicon" href="https://www.behance.net/Sushobhan952a4" target="_blank"><img src="../sushobhanparida.github.io/images/behance.png"></a></li>
+      <li><a class="navicon" href="https://www.instagram.com/sushobhan.jpg/" target="_blank"><img src="../sushobhanparida.github.io/images/instagram.png"></a></li>
+    <li><a class="navicon" href="https://www.linkedin.com/in/sushobhanparida/" target="_blank"><img src="../sushobhanparida.github.io/images/linkedin.png"></a></li>
+    <li><a href="mailto:sushobhan96@gmail.com" class="btn blue darken-4" target="_blank"><i class="material-icons">mail</i></a></li>
+  </ul>
+</div>
   
   <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -110,6 +123,13 @@
     $(document).ready(function(){
       $('.sidenav').sidenav();
     });
+        $('.fixed-action-btn').floatingActionButton({
+    toolbarEnabled: true
+  });
+      
+      $('.btn white indigo-text').floatingActionButton({
+    toolbarEnabled: true
+  });
   </script>
 </body>
 </html>
