@@ -36,14 +36,11 @@ section img
     margin: 50px;
 }
 
-
-
-
 .card
 {
-    margin: 10px 20px 10px 20px;
+    margin: 12px 20px 12px 20px;
     border-radius: 20px;
-    height: 140px;
+    height: 136px;
 }
 
 
@@ -75,6 +72,7 @@ h5
 }
 p
 {
+    font-size: 12px;
     color: #000000;
     
 }
