@@ -1,8 +1,13 @@
 *{
 
     background-color: #EEEEE;
-   font-family: Montserrat;
+    font-family: Montserrat;
  
+}
+
+body
+{
+        background-color: #039be5;
 }
 
 fieldset
@@ -12,6 +17,7 @@ fieldset
     margin: 20px auto;
     border: 2px solid #4DA9F7;
     border-radius: 10px;
+    
 }
 
 
@@ -35,13 +41,40 @@ section img
 
 .card
 {
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
     border-radius: 20px;
-    height: 150px;
+    height: 145px;
 }
 
 
 #logo
 {
     padding: 0 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card-image
+{
+    margin: 15px 10px 20px 20px;
+    top: 19%;
+    width: 55px;
+   
+}
+
+#java
+{
+    margin: 15px 10px 20px 20px;
+    top: 12%;
+    
+}
+h5
+{
+    font-size: 14px; 
+    color: #333333;
+}
+p
+{
+    color: #000000;
+    
 }
