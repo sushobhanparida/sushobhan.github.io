@@ -10,32 +10,6 @@ body
         background-color: #eeeeee;
 }
 
-fieldset
-{
-    height: 100px;
-    width: 340px;
-    margin: 20px auto;
-    border: 2px solid #4DA9F7;
-    border-radius: 10px;
-    
-}
-
-
-header
-{
-    padding: 10px;
-    text-align: center;
-}
-
-section
-{
-    text-align: center;
-}
-section img
-{
-    margin: 50px;
-}
-
 .card
 {
     margin: 12px 20px 12px 20px;
@@ -47,7 +21,7 @@ section img
 #logo
 {
     padding: 0 30px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -70,6 +44,7 @@ h5
     font-size: 14px; 
     color: #333333;
 }
+
 p
 {
     font-size: 12px;
