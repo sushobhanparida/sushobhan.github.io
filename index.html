@@ -17,7 +17,7 @@
   <div class="navbar-fixed">
     <nav class="nav-wrapper light-blue darken-1">
 
-          <a href="../sushobhanparida.github.io/index.html" class="brand-logo" id="logo">SUSHOBHAN</a>
+          <a href="../sushobhanparida.github.io/index.html" class="brand-logo tooltipped" data-position="bottom" data-tooltip="Home"  id="logo">SUSHOBHAN</a>
         <a href="#" class="sidenav-trigger" data-target="mobile-links">
           <i class="material-icons">more_horiz</i>
         </a>
@@ -42,6 +42,14 @@
     <li><a href="../sushobhanparida.github.io/education.html"><i class="material-icons left">school</i>Education</a></li>
   </ul>
     
+    <div class="row">
+      <div class="card-panel cyan">
+        <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+        </span>
+      </div>
+  </div>
+            
     
      <div class="col">
     <div class="card horizontal hoverable">
@@ -104,17 +112,19 @@
     <i class="large material-icons">chat</i>
   </a>
   <ul>
-    <li><a class="navicon" href="https://api.whatsapp.com/send?phone=+918908528110&text=Hi, I've contacted you through your website." target="_blank"><img src="../sushobhanparida.github.io/images/whatsapp.png"></a></li>
+    <li><a class="navicon tooltipped" data-position="top" data-tooltip="whatsapp"  href="https://api.whatsapp.com/send?phone=+918908528110&text=Hi, I've contacted you through your website." target="_blank"><img src="../sushobhanparida.github.io/images/whatsapp.png"></a></li>
       
-    <li><a class="navicon" href="https://www.behance.net/Sushobhan952a4" target="_blank"><img src="../sushobhanparida.github.io/images/behance.png"></a></li>
+    <li><a class="navicon tooltipped" data-position="top" data-tooltip="behance" href="https://www.behance.net/Sushobhan952a4" target="_blank"><img src="../sushobhanparida.github.io/images/behance.png"></a></li>
       
-      <li><a class="navicon" href="https://www.instagram.com/sushobhan.jpg/" target="_blank"><img src="../sushobhanparida.github.io/images/instagram.png"></a></li>
+      <li><a class="navicon tooltipped" data-position="top" data-tooltip="instagram"  href="https://www.instagram.com/sushobhan.jpg/" target="_blank"><img src="../sushobhanparida.github.io/images/instagram.png"></a></li>
       
-    <li><a class="navicon" href="https://www.linkedin.com/in/sushobhanparida/" target="_blank"><img src="../sushobhanparida.github.io/images/linkedin.png"></a></li>
+    <li><a class="navicon tooltipped" data-position="top" data-tooltip="linkedin"  href="https://www.linkedin.com/in/sushobhanparida/" target="_blank"><img src="../sushobhanparida.github.io/images/linkedin.png"></a></li>
       
-    <li><a href="mailto:sushobhan96@gmail.com" class="btn blue darken-3" target="_blank"><i class="large material-icons">mail</i></a></li>
+    <li><a href="mailto:sushobhan96@gmail.com" class="btn blue darken-3 tooltipped" data-position="top" data-tooltip="mail" target="_blank"><i class="large material-icons">mail</i></a></li>
   </ul>
 </div>
+    
+     
   
   <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -130,6 +140,10 @@
       $('.btn white indigo-text').floatingActionButton({
     toolbarEnabled: true
   });
+       $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });
+      
   </script>
 </body>
 </html>

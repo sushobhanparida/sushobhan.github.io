@@ -1,7 +1,11 @@
-*{
+ *{
     font-family: Montserrat;
 }
 
+.row
+{
+    padding: 20px 15px 0px 15px;
+}
 body
 {
         background-color: #eeeeee;
@@ -14,6 +18,10 @@ body
     height: 136px;
 }
 
+.card-action
+{
+    border-radius: 0px 0px 20px 20px;
+}
 
 #logo
 {
