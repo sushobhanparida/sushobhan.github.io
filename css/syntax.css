@@ -2,10 +2,6 @@
     font-family: Montserrat;
 }
 
-.row
-{
-    padding: 20px 15px 0px 15px;
-}
 body
 {
         background-color: #eeeeee;
@@ -13,11 +9,35 @@ body
 
 .card
 {
-    margin: 12px 20px 12px 20px;
+    margin: 0px 5px 0px 5px;
     border-radius: 20px;
     height: 140px;
+    
 }
 
+.card hoverable
+{
+    padding: 50px 50px;
+}
+#headline
+{
+    padding-top: 20px;
+}
+
+#portfolio
+{
+padding-bottom: 30px;
+}
+
+#foot
+{
+    text-align: center;
+
+}
+
+.icon-block {
+  padding: 0 15px;
+}
 
 
 .card-content
@@ -47,11 +67,7 @@ body
     top: 12%;
     
 }
-h5
-{
-    font-size: 14px; 
-    color: #333333;
-}
+
 
 p
 {

@@ -1,0 +1,45 @@
+ *{
+    font-family: Montserrat;
+}
+
+body
+{
+        background-color: #eeeeee;
+}
+
+.card
+{
+    
+    border-radius: 20px;
+}
+
+#foot
+{
+    text-align: center;
+
+}
+
+#logo
+{
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.navicon
+{
+    margin: 18px auto;
+}
+
+.navicon img
+{
+    width: 20px;
+    height: 20px;
+}
+
+.smalltext
+{
+    font-size: 1rem;
+    text-align: center;
+}
