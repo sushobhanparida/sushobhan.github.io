@@ -25,3 +25,14 @@ body
     position: fixed;
     bottom: 0;
 }
+
+.navicon
+{
+    margin: 18px auto;
+}
+
+.navicon img
+{
+    width: 20px;
+    height: 20px;
+}
