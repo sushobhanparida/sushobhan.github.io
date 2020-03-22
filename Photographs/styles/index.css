@@ -15,7 +15,7 @@ body {
     --color-link: #999;
     --color-link-hover: #fff;
     --color-primary: #88e7c4;
-    --color-secondary: #c5517d;
+    --color-secondary: #6316FF;
     --color-tertiary: #E7E429;
     --color-description: #c8c9b9;
     color: var(--color-text);
@@ -272,8 +272,8 @@ a:focus {
     font-family: vortice-concept, sans-serif;
     font-weight: 400;
     margin: 0;
-    -webkit-text-stroke: 1px var(--color-tertiary);
-    text-stroke: 1px var(--color-tertiary);
+    -webkit-text-stroke: 1px var(--color-primary);
+    text-stroke: 1px var(--color-primary);
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     color: transparent;
