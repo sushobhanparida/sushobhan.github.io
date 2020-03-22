@@ -11,11 +11,12 @@
 body {
     margin: 0;
     --color-text: #424242;
-    --color-bg: #190e17;
+    --color-bg: #01020e;
     --color-link: #999;
     --color-link-hover: #fff;
     --color-primary: #88e7c4;
     --color-secondary: #c5517d;
+    --color-tertiary: #E7E429;
     --color-description: #c8c9b9;
     color: var(--color-text);
     background-color: var(--color-bg);
@@ -271,8 +272,8 @@ a:focus {
     font-family: vortice-concept, sans-serif;
     font-weight: 400;
     margin: 0;
-    -webkit-text-stroke: 1px var(--color-primary);
-    text-stroke: 1px var(--color-primary);
+    -webkit-text-stroke: 1px var(--color-tertiary);
+    text-stroke: 1px var(--color-tertiary);
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     color: transparent;
@@ -284,7 +285,7 @@ a:focus {
 .item__counter {
     font-family: vortice-concept, sans-serif;
     font-weight: 400;
-    color: var(--color-primary);
+    color: var(--color-tertiary);
     font-size: 3rem;
     grid-area: counter;
     align-self: end;
