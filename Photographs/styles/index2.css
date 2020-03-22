@@ -9,9 +9,8 @@
 }
 
 body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
+    height: 100vh;
+    width: 100vh;
     --color-text: #424242;
     --color-bg: #190e17;
     --color-link: #999;
@@ -139,14 +138,13 @@ video#bgvid {
     background-size: cover; 
 }
 
-.video-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.7);
-    z-index: 2;
+.img-center {
+    width: 100vh;
+    height: 100vh;
+    display: block;
+    margin: auto 50%;
+    text-align: center !important;
+    width: 60%;
 }
 
 .slideshow__intro {
