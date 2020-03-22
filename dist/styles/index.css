@@ -16,7 +16,7 @@ body {
     --color-link-hover: #fff;
     --color-primary: #88e7c4;
     --color-secondary: #c5517d;
-    --color-description: #74755f;
+    --color-description: #c8c9b9;
     color: var(--color-text);
     background-color: var(--color-bg);
     font-family: pragmatica-extended, sans-serif;
