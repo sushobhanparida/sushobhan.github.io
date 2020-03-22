@@ -10,6 +10,7 @@
     <meta name="author" content="Codrops" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="https://use.typekit.net/xjr3lgi.css" />
+    <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
     <script>
     document.documentElement.className = "js";
     var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
@@ -17,8 +18,8 @@
     </script>
 <link href="styles/index2.css?902b12183c9f3934068a" rel="stylesheet"></head>
 
-<body class="demo-2 loading">
-    <main>
+<body>
+    
         <div class="frame">
             <div class="frame__title-wrap">
                 <h1 class="frame__title">Wave Motion Effect</h1>
@@ -33,27 +34,14 @@
                 <a href="index2.html" class="frame__demo frame__demo--current">demo 2</a>
             </div>
         </div>
-        <div class="slideshow">
-            <div class="slideshow__img-wrap | js-slideshow">
-                <div class="aspect" style="--aspect: 133.33%"></div>
-                <img class="slideshow__img slideshow__img--current" src="images/slideshow-01.jpg" alt="Some image" />
-                <img class="slideshow__img" src="images/slideshow-02.jpg" alt="Some image" />
-                <img class="slideshow__img" src="images/slideshow-03.jpg" alt="Some image" />
-                <img class="slideshow__img" src="images/slideshow-04.jpg" alt="Some image" />
-            </div>
-            <div class="slideshow__intro">
-                <span class="slideshow__intro-subline">A new cyber movement</span>
-                <h2 class="slideshow__intro-title">Mechanism</h2>
-                <p class="slideshow__intro-description">“Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won't come in.”</p>
-            </div>
-            <nav class="slideshow__nav">
-                <a class="slideshow__nav-item slideshow__nav-item--current">Seoul</a>
-                <a class="slideshow__nav-item">Bangkok</a>
-                <a class="slideshow__nav-item">Taipei</a>
-                <a class="slideshow__nav-item">Tokyo</a>
-            </nav>
-        </div>
-    </main>
+        <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+            <!-- 
+          - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+          WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+          <source src="/images/trip.mp4" type="video/mp4">
+          
+          </video>
+
 <script type="text/javascript" src="scripts/index2.js?902b12183c9f3934068a"></script></body>
 
 </html>
