@@ -142,7 +142,7 @@ video#bgvid {
     width: 100vh;
     height: 100vh;
     display: block;
-    margin: auto 50%;
+    margin: auto 60%;
     text-align: center !important;
     width: 60%;
 }
